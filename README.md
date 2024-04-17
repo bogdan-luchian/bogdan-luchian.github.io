@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -30,25 +29,23 @@
             border-radius: 10px;
         }
 
-        /* Cozy Pastel Pink Button */
-        .button {
-            background-color: #FFDDE1; /* Pastel pink */
-            color: black; /* Text color */
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        /* Cozy pastel pink styling for email */
+        .email-container {
+            display: flex;
+            align-items: center;
+            background-color: #ffc0cb; /* Cozy pastel pink */
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
-        .button:hover {
-            background-color: #FFB6C1; /* Lighter pastel pink on hover */
+        .email-icon {
+            margin-right: 10px;
         }
 
-        /* Position email button */
-        .email-button {
-            position: absolute;
-            top: 20px;
-            right: 20px;
+        .email-address {
+            font-size: 18px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -62,15 +59,16 @@
         <h2>About Me</h2>
         <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
 
-        <h2>Contact Me</h2>
-        <div class="email-button">
-            <button class="button"><a href="mailto:bogdanel.luchian@gmail.com" style="text-decoration: none; color: black;">Email: bogdanel.luchian@gmail.com</a></button>
+        <div class="email-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png" alt="Email Icon" class="email-icon" width="30">
+            <span class="email-address">bogdanel.luchian@gmail.com</span>
         </div>
     </div>
 
 </body>
 
 </html>
+
 
 
 
