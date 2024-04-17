@@ -3,11 +3,8 @@
 <head>
     <style>
         body {
-            background-image: url('https://images.pexels.com/photos/6847584/pexels-photo-6847584.jpeg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            color: black; /* Set text color to black */
+            background-color: #f6f6f6; /* Set a light gray background */
+            color: #333; /* Set text color to dark gray */
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for normal text */
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
@@ -29,7 +26,7 @@
         p {
             text-align: center;
             margin: 0; /* Remove default margin */
-            padding: 20px;
+            padding: 10px; /* Add padding */
             border-radius: 10px;
         }
 
@@ -37,6 +34,7 @@
         h1,
         h2 {
             font-family: 'Apparel Black', serif; /* Set font to Apparel Black for titles */
+            font-size: 36px; /* Increase font size for titles */
         }
 
         /* Email button */
@@ -47,9 +45,11 @@
             border-radius: 30px; /* Rounded corners */
             cursor: pointer;
             text-decoration: none;
-            color: black;
+            color: #333; /* Set text color to dark gray */
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for button text */
             transition: background-color 0.3s ease; /* Smooth hover transition */
+            font-size: 16px; /* Set font size */
+            margin-top: 20px; /* Add margin to separate from other content */
         }
 
         .email-button:hover {
@@ -58,12 +58,10 @@
 
         /* Contact me text */
         .contact-me {
-            position: fixed; /* Set position to fixed */
-            top: 20px; /* Distance from top */
-            right: 20px; /* Distance from right */
-            color: black; /* Set text color to black */
+            color: #333; /* Set text color to dark gray */
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for contact text */
             font-size: 16px;
+            margin-top: 20px; /* Add margin to separate from other content */
         }
     </style>
 </head>
@@ -71,7 +69,7 @@
 <body>
 
     <div class="container">
-        <h1 style="font-size: 40px;">Bogdan Luchian</h1>
+        <h1>Bogdan Luchian</h1>
         <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
 
         <h2>About Me</h2>
@@ -87,6 +85,7 @@
 </body>
 
 </html>
+
 
 
 
