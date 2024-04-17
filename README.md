@@ -29,6 +29,27 @@
             padding: 20px;
             border-radius: 10px;
         }
+
+        /* Cozy Pastel Pink Button */
+        .button {
+            background-color: #FFDDE1; /* Pastel pink */
+            color: black; /* Text color */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #FFB6C1; /* Lighter pastel pink on hover */
+        }
+
+        /* Position email button */
+        .email-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
     </style>
 </head>
 
@@ -42,15 +63,15 @@
         <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
 
         <h2>Contact Me</h2>
-        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me:</p>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a></li>
-        </ul>
+        <div class="email-button">
+            <button class="button"><a href="mailto:bogdanel.luchian@gmail.com" style="text-decoration: none; color: black;">Email: bogdanel.luchian@gmail.com</a></button>
+        </div>
     </div>
 
 </body>
 
 </html>
+
 
 
 
