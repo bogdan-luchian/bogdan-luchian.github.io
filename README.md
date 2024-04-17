@@ -18,7 +18,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: flex-start; /* Align items to the left */
+            align-items: center; /* Align items to the center */
             min-height: 100vh; /* Full height of viewport */
             padding: 20px; /* Add padding for spacing */
         }
@@ -43,9 +43,6 @@
             color: black;
             font-family: Georgia, serif;
             transition: background-color 0.3s ease; /* Smooth hover transition */
-            position: fixed; /* Set position to fixed */
-            top: 20px; /* Distance from top */
-            right: 20px; /* Distance from right */
         }
 
         .email-button:hover {
@@ -54,12 +51,11 @@
 
         /* Contact me text */
         .contact-me {
-            position: absolute; /* Set position to absolute */
-            bottom: 20px; /* Distance from bottom */
+            position: fixed; /* Set position to fixed */
+            top: 20px; /* Distance from top */
             right: 20px; /* Distance from right */
-            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-            padding: 10px 20px;
-            border-radius: 10px;
+            color: white; /* Set text color to white */
+            font-size: 16px;
         }
     </style>
 </head>
@@ -83,4 +79,5 @@
 </body>
 
 </html>
+
 
