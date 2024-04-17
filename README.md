@@ -8,7 +8,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             color: black; /* Set text color to black */
-            font-family: Georgia, serif; /* Set font to Georgia */
+            font-family: Georgia, serif; /* Set default font to Georgia */
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
         }
@@ -25,7 +25,6 @@
 
         /* Adjustments for better readability */
         h1,
-        h2,
         p {
             text-align: center;
             margin: 0; /* Remove default margin */
@@ -59,9 +58,9 @@
             font-size: 16px;
         }
 
-        /* Title font */
-        .title {
-            font-family: 'Apperal Black', sans-serif; /* Set font to Apperal Black */
+        /* Font for Apparel Black */
+        .apparel-black {
+            font-family: "Arial Black", sans-serif; /* Set font to Arial Black */
         }
     </style>
 </head>
@@ -69,17 +68,17 @@
 <body>
 
     <div class="container">
-        <h1 class="title" style="font-size: 40px;">Bogdan Luchian</h1>
-        <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
+        <h1 class="apparel-black" style="font-size: 40px;">Apparel Black</h1>
+        <p class="apparel-bolt">Welcome to Apparel Black's Cozy Corner of Motion Design!</p>
 
-        <h2>About Me</h2>
-        <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
+        <h2 class="apparel-bolt">About Us</h2>
+        <p class="apparel-bolt">We are passionate about providing high-quality apparel with bold designs that make a statement. Join us in exploring the world of fashion and creativity.</p>
     </div>
     <!-- Contact me text -->
     <div class="contact-me">
-        <h2>Contact Me</h2>
-        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me:</p>
-        <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
+        <h2>Contact Us</h2>
+        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to us:</p>
+        <a class="email-button" href="mailto:apparel.black@gmail.com">apparel.black@gmail.com</a>
     </div>
 
 </body>
