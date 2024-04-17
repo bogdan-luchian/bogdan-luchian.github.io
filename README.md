@@ -3,7 +3,10 @@
 <head>
     <style>
         body {
-            background-color: #f6f6f6; /* Set a light gray background */
+            background-image: url('https://images.pexels.com/photos/6847584/pexels-photo-6847584.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             color: #333; /* Set text color to dark gray */
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for normal text */
             margin: 0; /* Remove default margin */
@@ -28,6 +31,7 @@
             margin: 0; /* Remove default margin */
             padding: 10px; /* Add padding */
             border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
         }
 
         /* Titles */
@@ -85,6 +89,7 @@
 </body>
 
 </html>
+
 
 
 
