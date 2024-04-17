@@ -18,7 +18,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start; /* Align items to the left */
             min-height: 100vh; /* Full height of viewport */
             padding: 20px; /* Add padding for spacing */
         }
@@ -51,6 +51,16 @@
         .email-button:hover {
             background-color: #ff99ac; /* Lighter shade of pink on hover */
         }
+
+        /* Contact me text */
+        .contact-me {
+            position: absolute; /* Set position to absolute */
+            bottom: 20px; /* Distance from bottom */
+            right: 20px; /* Distance from right */
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 
@@ -62,12 +72,15 @@
 
         <h2>About Me</h2>
         <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
-
-        <h2>Contact Me</h2>
     </div>
-    <!-- Email button -->
-    <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
+    <!-- Contact me text -->
+    <div class="contact-me">
+        <h2>Contact Me</h2>
+        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me:</p>
+        <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
+    </div>
 
 </body>
 
 </html>
+
