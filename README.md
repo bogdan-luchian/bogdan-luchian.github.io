@@ -25,6 +25,7 @@
 
         /* Adjustments for better readability */
         h1,
+        h2,
         p {
             text-align: center;
             margin: 0; /* Remove default margin */
@@ -57,13 +58,18 @@
             color: black; /* Set text color to black */
             font-size: 16px;
         }
+
+        /* Title font */
+        .title {
+            font-family: 'Apperal Black', sans-serif; /* Set font to Apperal Black */
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-        <h1 style="font-size: 40px;">Bogdan Luchian</h1>
+        <h1 class="title" style="font-size: 40px;">Bogdan Luchian</h1>
         <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
 
         <h2>About Me</h2>
@@ -79,6 +85,7 @@
 </body>
 
 </html>
+
 
 
 
