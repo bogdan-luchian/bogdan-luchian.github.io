@@ -34,16 +34,23 @@
             background-color: #ffb6c1; /* Cozy pastel pink */
             padding: 10px 20px;
             border: none;
-            border-radius: 5px;
+            border-radius: 30px; /* Rounded corners */
             cursor: pointer;
             display: inline-block;
             text-decoration: none;
             color: black;
             font-family: Georgia, serif;
+            transition: background-color 0.3s ease; /* Smooth hover transition */
         }
 
         .email-button:hover {
             background-color: #ff99ac; /* Lighter shade of pink on hover */
+        }
+
+        /* Email icon */
+        .email-icon {
+            vertical-align: middle; /* Align icon vertically with text */
+            margin-right: 10px; /* Add some space between icon and text */
         }
     </style>
 </head>
@@ -60,7 +67,7 @@
         <h2>Contact Me</h2>
         <!-- Email button -->
         <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">
-            <img src="https://image.flaticon.com/icons/png/512/324/324123.png" alt="Email Icon" width="20" height="20">
+            <img class="email-icon" src="https://image.flaticon.com/icons/png/512/324/324123.png" alt="Email Icon" width="20" height="20">
             bogdanel.luchian@gmail.com
         </a>
     </div>
@@ -68,6 +75,7 @@
 </body>
 
 </html>
+
 
 
 
