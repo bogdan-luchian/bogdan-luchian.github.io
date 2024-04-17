@@ -1,11 +1,11 @@
-<!-- Contact Page -->
+<!-- Home Page -->
 <!DOCTYPE html>
 <html>
 
 <head>
     <style>
         body {
-            background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg');
+            background-image: url('https://images.pexels.com/photos/6847584/pexels-photo-6847584.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -13,7 +13,6 @@
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for normal text */
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
-            text-align: center; /* Center text horizontally */
         }
 
         /* Container to center content vertically */
@@ -43,7 +42,31 @@
             font-size: 36px; /* Increase font size for titles */
         }
 
-        /* Email button */
+        /* Contact button */
+        .contact-button {
+            background-color: #ffb732; /* Cozy orange-yellow */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px; /* Rounded corners */
+            cursor: pointer;
+            text-decoration: none;
+            color: #333; /* Set text color to dark gray */
+            font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for button text */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+            font-size: 16px; /* Set font size */
+            margin-top: 20px; /* Add margin to separate from other content */
+        }
+
+        .contact-button:hover {
+            background-color: #ffac2e; /* Lighter shade of orange-yellow on hover */
+        }
+
+        /* Contact me text and email button */
+        .contact-info {
+            text-align: center;
+            margin-top: 50px; /* Add margin to separate from other content */
+        }
+
         .email-button {
             background-color: #ffb6c1; /* Cozy pastel pink */
             padding: 10px 20px;
@@ -67,9 +90,27 @@
 <body>
 
     <div class="container">
-        <h1>Contact Me</h1>
-        <p>If you have any questions or would like to collaborate, feel free to reach out to me:</p>
+        <h1>Bogdan Luchian</h1>
+        <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
+
+        <h2>About Me</h2>
+        <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
+
+        <!-- Contact button -->
+        <a class="contact-button" href="contact-info.html">Contact Me</a>
+    </div>
+
+    <!-- Contact me text and email button -->
+    <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me:</p>
         <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
+    </div>
+
+</body>
+
+</html>
+
     </div>
 
 </body>
