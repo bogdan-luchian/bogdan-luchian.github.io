@@ -54,7 +54,7 @@
             position: fixed; /* Set position to fixed */
             top: 20px; /* Distance from top */
             right: 20px; /* Distance from right */
-            color: white; /* Set text color to white */
+            color: black; /* Set text color to black */
             font-size: 16px;
         }
     </style>
@@ -79,5 +79,6 @@
 </body>
 
 </html>
+
 
 
