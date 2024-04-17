@@ -31,7 +31,6 @@
             margin: 0; /* Remove default margin */
             padding: 10px; /* Add padding */
             border-radius: 10px;
-            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
         }
 
         /* Titles */
@@ -62,10 +61,12 @@
 
         /* Contact me text */
         .contact-me {
+            position: fixed; /* Set position to fixed */
+            top: 20px; /* Distance from top */
+            right: 20px; /* Distance from right */
             color: #333; /* Set text color to dark gray */
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for contact text */
             font-size: 16px;
-            margin-top: 20px; /* Add margin to separate from other content */
         }
     </style>
 </head>
@@ -89,6 +90,7 @@
 </body>
 
 </html>
+
 
 
 
