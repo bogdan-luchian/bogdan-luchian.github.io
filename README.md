@@ -9,34 +9,27 @@
             background-attachment: fixed;
             color: black; /* Set text color to black */
             font-family: Georgia, serif; /* Set font to Georgia */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
         }
 
         /* Container to center content vertically */
         .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Full height of viewport */
-        }
-
-        /* Adjustments for better readability */
-        h1,
-        p {
-            text-align: center;
-            margin: 0; /* Remove default margin */
-            padding: 20px;
-            border-radius: 10px;
+            position: relative; /* Set position to relative */
+            min-height: 100vh; /* Full height of viewport */
+            padding: 20px; /* Add padding for spacing */
         }
 
         /* Email button */
         .email-button {
+            position: absolute; /* Set position to absolute */
+            top: 20px; /* Distance from top */
+            left: 20px; /* Distance from left */
             background-color: #ffb6c1; /* Cozy pastel pink */
             padding: 10px 20px;
             border: none;
             border-radius: 30px; /* Rounded corners */
             cursor: pointer;
-            display: inline-block;
             text-decoration: none;
             color: black;
             font-family: Georgia, serif;
@@ -45,12 +38,6 @@
 
         .email-button:hover {
             background-color: #ff99ac; /* Lighter shade of pink on hover */
-        }
-
-        /* Email icon */
-        .email-icon {
-            vertical-align: middle; /* Align icon vertically with text */
-            margin-right: 10px; /* Add some space between icon and text */
         }
     </style>
 </head>
@@ -66,15 +53,13 @@
 
         <h2>Contact Me</h2>
         <!-- Email button -->
-        <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">
-            <img class="email-icon" src="https://image.flaticon.com/icons/png/512/324/324123.png" alt="Email Icon" width="20" height="20">
-            bogdanel.luchian@gmail.com
-        </a>
+        <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
     </div>
 
 </body>
 
 </html>
+
 
 
 
