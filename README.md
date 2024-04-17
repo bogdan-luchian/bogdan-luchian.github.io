@@ -40,9 +40,9 @@
             font-size: 36px; /* Increase font size for titles */
         }
 
-        /* Email button */
-        .email-button {
-            background-color: #ffb6c1; /* Cozy pastel pink */
+        /* Contact me button */
+        .contact-button {
+            background-color: #ffb732; /* Cozy orange-yellow */
             padding: 10px 20px;
             border: none;
             border-radius: 30px; /* Rounded corners */
@@ -55,18 +55,8 @@
             margin-top: 20px; /* Add margin to separate from other content */
         }
 
-        .email-button:hover {
-            background-color: #ff99ac; /* Lighter shade of pink on hover */
-        }
-
-        /* Contact me text */
-        .contact-me {
-            position: fixed; /* Set position to fixed */
-            top: 20px; /* Distance from top */
-            right: 20px; /* Distance from right */
-            color: #333; /* Set text color to dark gray */
-            font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for contact text */
-            font-size: 16px;
+        .contact-button:hover {
+            background-color: #ffac2e; /* Lighter shade of orange-yellow on hover */
         }
     </style>
 </head>
@@ -80,16 +70,13 @@
         <h2>About Me</h2>
         <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
     </div>
-    <!-- Contact me text -->
-    <div class="contact-me">
-        <h2>Contact Me</h2>
-        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me:</p>
-        <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
-    </div>
+    <!-- Contact button -->
+    <a class="contact-button" href="contact.html">Contact Me</a>
 
 </body>
 
 </html>
+
 
 
 
