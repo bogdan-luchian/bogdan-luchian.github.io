@@ -8,7 +8,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             color: black; /* Set text color to black */
-            font-family: Georgia, serif; /* Set font to Georgia */
+            font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for normal text */
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
         }
@@ -25,11 +25,18 @@
 
         /* Adjustments for better readability */
         h1,
+        h2,
         p {
             text-align: center;
             margin: 0; /* Remove default margin */
             padding: 20px;
             border-radius: 10px;
+        }
+
+        /* Titles */
+        h1,
+        h2 {
+            font-family: 'Apparel Black', serif; /* Set font to Apparel Black for titles */
         }
 
         /* Email button */
@@ -41,7 +48,7 @@
             cursor: pointer;
             text-decoration: none;
             color: black;
-            font-family: Georgia, serif;
+            font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for button text */
             transition: background-color 0.3s ease; /* Smooth hover transition */
         }
 
@@ -55,16 +62,8 @@
             top: 20px; /* Distance from top */
             right: 20px; /* Distance from right */
             color: black; /* Set text color to black */
+            font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for contact text */
             font-size: 16px;
-        }
-
-        /* Title font */
-        .apparel-black {
-            font-family: "Arial Black", sans-serif; /* Set font to Arial Black for the title "Apparel Black" */
-        }
-
-        .apparel-bolt {
-            font-family: "Arial Narrow", sans-serif; /* Set font to Arial Narrow for the title "Apparel Bolt" */
         }
     </style>
 </head>
@@ -72,10 +71,10 @@
 <body>
 
     <div class="container">
-        <h1 class="apparel-black" style="font-size: 40px;">Apparel Black</h1>
+        <h1 style="font-size: 40px;">Bogdan Luchian</h1>
         <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
 
-        <h2 class="apparel-bolt">About Me</h2>
+        <h2>About Me</h2>
         <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
     </div>
     <!-- Contact me text -->
@@ -88,6 +87,7 @@
 </body>
 
 </html>
+
 
 
 
