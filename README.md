@@ -8,7 +8,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            color: white; /* Set text color to white for better contrast */
+            color: black; /* Set text color to black */
         }
 
         /* Container to center content vertically */
@@ -24,8 +24,9 @@
         h1,
         p {
             text-align: center;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+            margin: 0; /* Remove default margin */
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background for better readability */
             border-radius: 10px;
         }
     </style>
@@ -50,4 +51,5 @@
 </body>
 
 </html>
+
 
