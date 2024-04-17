@@ -22,6 +22,7 @@
             align-items: center; /* Align items to the center */
             min-height: 100vh; /* Full height of viewport */
             padding: 20px; /* Add padding for spacing */
+            position: relative; /* Make container position relative */
         }
 
         /* Adjustments for better readability */
@@ -43,6 +44,9 @@
 
         /* Contact button */
         .contact-button {
+            position: absolute; /* Position button absolutely */
+            top: 20px; /* Distance from top */
+            right: 20px; /* Distance from right */
             background-color: #ffb732; /* Cozy orange-yellow */
             padding: 10px 20px;
             border: none;
@@ -53,7 +57,6 @@
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for button text */
             transition: background-color 0.3s ease; /* Smooth hover transition */
             font-size: 16px; /* Set font size */
-            margin-top: 20px; /* Add margin to separate from other content */
         }
 
         .contact-button:hover {
@@ -121,4 +124,5 @@
 </body>
 
 </html>
+
 
