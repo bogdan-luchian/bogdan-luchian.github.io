@@ -9,6 +9,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             color: black; /* Set text color to black */
+            font-family: Georgia, serif; /* Set font to Georgia */
         }
 
         /* Container to center content vertically */
@@ -35,7 +36,7 @@
 <body>
 
     <div class="container">
-        <h1>Bogdan Luchian</h1>
+        <h1 style="font-size: 40px;">Bogdan Luchian</h1>
         <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
 
         <h2>About Me</h2>
