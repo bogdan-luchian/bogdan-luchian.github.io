@@ -1,3 +1,4 @@
+<!-- Contact Page -->
 <!DOCTYPE html>
 <html>
 
@@ -74,14 +75,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
