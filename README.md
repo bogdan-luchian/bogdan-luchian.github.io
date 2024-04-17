@@ -3,7 +3,7 @@
 <head>
     <style>
         body {
-            background-image: url('https://images.pexels.com/photos/6847584/pexels-photo-6847584.jpeg');
+            background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -11,10 +11,6 @@
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for normal text */
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
-        }
-
-        /* Container to center content vertically */
-        .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -31,6 +27,7 @@
             margin: 0; /* Remove default margin */
             padding: 10px; /* Add padding */
             border-radius: 10px;
+            color: white; /* Set text color to white */
         }
 
         /* Titles */
@@ -40,9 +37,9 @@
             font-size: 36px; /* Increase font size for titles */
         }
 
-        /* Contact me button */
-        .contact-button {
-            background-color: #ffb732; /* Cozy orange-yellow */
+        /* Email button */
+        .email-button {
+            background-color: #ffb6c1; /* Cozy pastel pink */
             padding: 10px 20px;
             border: none;
             border-radius: 30px; /* Rounded corners */
@@ -55,28 +52,21 @@
             margin-top: 20px; /* Add margin to separate from other content */
         }
 
-        .contact-button:hover {
-            background-color: #ffac2e; /* Lighter shade of orange-yellow on hover */
+        .email-button:hover {
+            background-color: #ff99ac; /* Lighter shade of pink on hover */
         }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>Bogdan Luchian</h1>
-        <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
-
-        <h2>About Me</h2>
-        <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
-    </div>
-    <!-- Contact button -->
-    <a class="contact-button" href="contact.html">Contact Me</a>
+    <h1>Contact Me</h1>
+    <p>If you have any questions or inquiries, feel free to reach out to me:</p>
+    <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
 
 </body>
 
 </html>
-
 
 
 
