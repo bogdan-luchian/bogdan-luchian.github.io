@@ -27,7 +27,6 @@
             text-align: center;
             margin: 0; /* Remove default margin */
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background for better readability */
             border-radius: 10px;
         }
     </style>
@@ -52,5 +51,6 @@
 </body>
 
 </html>
+
 
 
