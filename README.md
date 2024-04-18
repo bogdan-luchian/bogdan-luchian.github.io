@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -84,9 +84,13 @@
             background-color: #ffac2e; /* Lighter shade of orange-yellow on hover */
         }
 
+        /* About text */
+        #aboutText {
+            display: none; /* Initially hide about text */
+        }
+
         /* Contact info */
         .contact-info {
-            display: none; /* Initially hide contact info */
             text-align: center;
             margin-top: 50px; /* Add margin to separate from other content */
         }
@@ -118,7 +122,7 @@
         <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
 
         <h2>About Me</h2>
-        <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
+        <p id="aboutText">Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
 
         <!-- Contact button -->
         <button class="contact-button" onclick="toggleContact()">Contact Me</button>
@@ -127,7 +131,7 @@
         <button class="about-button" onclick="toggleAbout()">About Me</button>
 
         <!-- Contact info -->
-        <div class="contact-info" id="contactInfo">
+        <div class="contact-info">
             <h2>Contact Me</h2>
             <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me:</p>
             <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
@@ -136,7 +140,7 @@
 
     <script>
         function toggleContact() {
-            var contactInfo = document.getElementById('contactInfo');
+            var contactInfo = document.querySelector('.contact-info');
             if (contactInfo.style.display === 'none') {
                 contactInfo.style.display = 'block';
             } else {
@@ -157,6 +161,7 @@
 </body>
 
 </html>
+
 
 
 
