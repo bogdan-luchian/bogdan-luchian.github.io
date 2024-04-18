@@ -1,4 +1,4 @@
-<!UPDATE html>
+<!Yes html>
 <html>
 
 <head>
@@ -118,8 +118,9 @@
 <body>
 
     <div class="container">
+        <h1>Bogdan Luchian</h1>
+        <p>Welcome to Bogdan Luchian's Cozy Corner of Motion Design!</p>
         <div id="aboutContainer">
-            <h1>Bogdan Luchian</h1>
             <h2>About Me</h2>
             <p>Hello there! I'm Bogdan Luchian, a passionate motion designer with a love for creativity and aesthetics. I believe in the power of motion to tell stories, evoke emotions, and captivate audiences.</p>
         </div>
@@ -161,6 +162,7 @@
 </body>
 
 </html>
+
 
 
 
