@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!UPDATE html>
 <html>
 
 <head>
@@ -67,6 +67,51 @@
         #aboutContainer {
             display: none; /* Initially hide about container */
         }
+
+        /* Contact button */
+        .contact-button {
+            position: absolute; /* Position button absolutely */
+            top: 20px; /* Distance from top */
+            right: 20px; /* Distance from right */
+            background-color: #ffb732; /* Cozy orange-yellow */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px; /* Rounded corners */
+            cursor: pointer;
+            text-decoration: none;
+            color: #333; /* Set text color to dark gray */
+            font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for button text */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+            font-size: 16px; /* Set font size */
+        }
+
+        .contact-button:hover {
+            background-color: #ffac2e; /* Lighter shade of orange-yellow on hover */
+        }
+
+        /* Contact text */
+        .contact-info {
+            text-align: center;
+            margin-top: 50px; /* Add margin to separate from other content */
+        }
+
+        .email-button {
+            background-color: #ffb6c1; /* Cozy pastel pink */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px; /* Rounded corners */
+            cursor: pointer;
+            text-decoration: none;
+            color: #333; /* Set text color to dark gray */
+            font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for button text */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+            font-size: 16px; /* Set font size */
+            margin-top: 20px; /* Add margin to separate from other content */
+        }
+
+        .email-button:hover {
+            background-color: #ff99ac; /* Lighter shade of pink on hover */
+        }
     </style>
 </head>
 
@@ -81,6 +126,16 @@
 
         <!-- About button -->
         <button class="about-button" onclick="toggleAbout()">About Me</button>
+
+        <!-- Contact button -->
+        <button class="contact-button" onclick="toggleContact()">Contact Me</button>
+    </div>
+
+    <!-- Contact text -->
+    <div class="contact-info" id="contactInfo" style="display:none;">
+        <h2>Contact Me</h2>
+        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me:</p>
+        <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
     </div>
 
     <script>
@@ -92,12 +147,20 @@
                 aboutContainer.style.display = 'none';
             }
         }
+
+        function toggleContact() {
+            var contactInfo = document.getElementById('contactInfo');
+            if (contactInfo.style.display === 'none') {
+                contactInfo.style.display = 'block';
+            } else {
+                contactInfo.style.display = 'none';
+            }
+        }
     </script>
 
 </body>
 
 </html>
-
 
 
 
