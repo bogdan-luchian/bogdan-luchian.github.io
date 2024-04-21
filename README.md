@@ -1,4 +1,4 @@
-<!Hope html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -12,7 +12,6 @@
             font-family: 'Apparel Bolt', serif; /* Set font to Apparel Bolt for normal text */
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
-            position: relative; /* Make body position relative */
         }
 
         /* Container to center content vertically */
@@ -113,15 +112,6 @@
         .email-button:hover {
             background-color: #ff99ac; /* Lighter shade of pink on hover */
         }
-
-        /* GIF */
-        .gif-container {
-            position: absolute;
-            top: calc(50% - 150px); /* Adjust top position to center vertically */
-            left: 50%;
-            transform: translateX(-50%); /* Center horizontally */
-        }
-
     </style>
 </head>
 
@@ -149,11 +139,6 @@
         <a class="email-button" href="mailto:bogdanel.luchian@gmail.com">bogdanel.luchian@gmail.com</a>
     </div>
 
-    <!-- GIF -->
-    <div class="gif-container">
-        <img src="https://media.giphy.com/media/l41Ygr7sR5limRkek/giphy.gif" alt="Illustration" width="300">
-    </div>
-
     <script>
         function toggleAbout() {
             var aboutContainer = document.getElementById('aboutContainer');
@@ -177,11 +162,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
